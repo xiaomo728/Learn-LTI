@@ -93,8 +93,6 @@ namespace Edna.Bindings.LtiAdvantage.Services
             int count = 0;
             foreach (Member m in allMembers) {
                 count ++;       
-                m.FamilyName = "test";
-                m.GivenName = "test";
                 string name = m.Email;
                 if (m.Email != null)
                 {            
